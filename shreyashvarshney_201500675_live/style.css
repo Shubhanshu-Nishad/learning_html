@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(https://wordpress.creativegigs.net/rogan/wp-content/plugins/rogan-core/widgets/images/shape/1.png) no-repeat top right;
+    top: 0;
+}
+.back{
+    float: right;
+    margin-top: 70px;
+    margin-right: 100px;
+    display: flex;
+    right: 0;
+    /* bottom: 0; */
+    position: absolute;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 5px 0; */
+}
+.logo{
+    top: 0;
+    width: 100px;
+    height: 90px;
+    color: white;
+    font-size: 40px;
+    background: linear-gradient(to left,#ff469f,#ff6062);
+    cursor: pointer;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-weight: 300;
+}
+nav ul{
+    flex: 1;
+    text-align: left;
+    padding-right: 30px;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+}
+nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 30px;
+        font-size: 14px;
+        transition: 0.3s;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 0.593);
+        position: relative;
+}
+nav ul li a:hover{
+    color: #FF3A46;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    color: #fa3889;
+    outline: none;
+    border: 0.1px solid rgba(0, 0, 0, 0.322);
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+button:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to right, #fb5283, #ff3527);   
+    color: white;
+   
+}
+button .arrow{
+    margin-left: 20px;
+    font-size: 30px;
+        width: 30px;
+        
+    
+}
+.text{
+    margin-left: 50px;
+    margin-top: 160px;
+}
+.text .offer{
+    width: 200px;
+    border: 0.5px solid rgba(0, 0, 0, 0.344);
+    padding: 0 10px;
+}
+.text p span{
+    color: #ff2735;
+    
+}
+.text h1{
+    margin-top: 20px;
+    font-size: 75px;
+    color: rgba(0, 28, 62, 0.764);
+    font-weight: bold;
+    
+}
+p{
+    color:rgba(61, 61, 61, 0.488);
+}
+.cap-p{
+    color:rgba(61, 61, 61, 0.488);
+}
+footer{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    position: relative;
+
+}
+footer .row{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 60px;
+    
+}
+footer .col{
+    padding: 0 80px;
+}
