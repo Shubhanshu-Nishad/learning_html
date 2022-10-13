@@ -1,710 +1,87 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - 1</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
-
-    <title>Shubh Foundation - निष्ठा धृति: सत्यम् </title>
-    <link rel="icon" href="images/shubhanshu.png">
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
-
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-
-    <link rel="stylesheet" href="css/animate.css">
-
-    <link rel="stylesheet" href="css/templatemo-style.css">
-
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        #logo {
+            background-color: #fc5296;
+            background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+        }
+        #topRightBtn {
+            box-shadow: -7px 9px 22px 1px rgba(209, 205, 205, 0.75);
+            -webkit-box-shadow: -7px 9px 22px 1px rgba(209, 205, 205, 0.75);
+            -moz-box-shadow: -7px 9px 22px 1px rgba(209, 205, 205, 0.75);
+        }
+    </style>
 
 </head>
-
-<body>
-
-    <div id="video">
-        <div class="preloader">
-            <div class="preloader-bounce">
-                <span></span>
-                <span></span>
-                <span></span>
+<body onload="myFunc()">
+    
+    <!-- Navbar -->
+    <nav class="relative container mx-auto">
+        <!-- flex container  -->
+        <div class="flex justify-between">
+            <div class="flex items-center justify-center">
+                <!-- logo  -->
+                <div id="logo" class="h-28 w-28 flex items-center justify-center text-white text-5xl">
+                    R
+                </div>
+                <!-- Menu items  -->
+                <div class="hidden space-x-6 md:flex pl-12 text-xl text-gray-800 font-semibold">
+                    <a href="#!" class="text-pink-500 hover:text-pink-500 px-2">Home</a>
+                    <a href="#!" class="hover:text-pink-500 px-2">Project</a>
+                    <a href="#!" class="hover:text-pink-500 px-2">Elements</a>
+                    <a href="#!" class="hover:text-pink-500 px-2">Blog</a>
+                    <a href="#!" class="hover:text-pink-500 px-2">Shop</a>
+                    <a href="#!" class="hover:text-pink-500 px-2">Contact</a>
+                </div>
             </div>
+            <!-- Button  -->
+            <a href="#!" class="h-16 w-64 flex items-center justify-center text-pink-500 bg-gray-100 hover:bg-gray-200 font-semibold text-xl mt-4 mr-4" id="topRightBtn">
+                Buy Rogan
+                    <i class="pl-4 fa-solid fa-arrow-right-long"></i>
+            </a>
+    </nav>
+
+    <!-- Main Section  -->
+    <main>
+
+        <!-- Flex container  -->
+        <div class="container flex flex-col-reverse items-center px-16 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+
+            <!-- left item  -->
+            <div class="flex flex-col space-y-4 md:w-1/2">
+                <span class="bg-gray-100 w-56 py-2 text-center font-bold text-gray-700">
+                    <span class="text-red-400">70% Off</span> for first 3 months
+                </span>
+                <h1 class="max-w-md text-6xl text-gray-800 font-semibold text-center tracking-wide md:text-5xl md:text-left">
+                    Digital Agency with Excellence Services
+                </h1>
+                <p class="max-w-md text-center text-gray-500 font-semibold text-base pt-8 md:text-left">
+                    The 3 golden rules professional graphic designer don't
+                </p>
+            </div>
+            <!-- Image  -->
+            <div class="md:w-1/2 p-20">
+                <img src="./image.jpeg" alt="image not found">
+            </div>
+
         </div>
 
-        <header id="header">
-            <div class="container-fluid">
-                <div class="navbar">
-                    <a href="#" id="logo" title="Elegance by Lorem">
-                        Shubh Foundation
-                    </a>
-                    <div class="navigation-row">
-                        <nav id="navigation">
-                            <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
-                            <div class="nav-box navbar-collapse">
-                                <ul class="navigation-menu nav navbar-nav navbars" id="nav">
-                                    <li data-menuanchor="slide01" class="active"><a href="#slide01">Home</a></li>
-                                    <li data-menuanchor="slide02"><a href="#slide02">About Us</a></li>
-                                    <li data-menuanchor="slide03"><a href="#slide03">Mission</a></li>
-                                    <li data-menuanchor="slide04"><a href="#slide04">Donate</a></li>
-                                    <li data-menuanchor="slide05"><a href="#slide05">Work</a></li>
-                                    <li data-menuanchor="slide06"><a href="#slide06">Testimonials</a></li>
-                                    <li data-menuanchor="slide07"><a href="#slide07">Contact Us</a></li>
-                                    <li data-menuanchor=""><a target="blank" href="https://docs.google.com/document/d/12iAn2VxKUMVbVhAtRRqSZ07045q-pNF8UVEKCbdLp5A/edit?usp=sharing">Olympiad Syllabus</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </header>
+    </main>
 
-        <video autoplay muted loop id="myVideo">
-            <source src="images/video-bg-s.mp4" type="video/mp4">
-        </video>
+    <footer class="flex justify-around font-semibold text-2xl text-gray-800 py-4">
+        <span id="myName">[Student name]</span>
+        <span id="myRollno">[University Rollno]</span>
+        <span>GLA University, Mathura</span>
+        <span id="dateToday">[11-07-2022]</span>
+    </footer>
 
-        <div id="fullpage" class="fullpage-default">
-
-            <div class="section animated-row" data-section="slide01">
-                <div class="section-inner">
-                    <div class="welcome-box">
-                        <span class="welcome-first animate" data-animate="fadeInUp">Hello, Everyone </span>
-                        <h1 class="welcome-title animate" data-animate="fadeInUp">Shubh Seva Samiti</h1>
-                        <p class="animate" data-animate="fadeInUp">is a non-profit organization started in 2017 working towards upliftment of livelihood of all living beings. Shubh is the best platform for compassionate peoples to serve the nation where we plant trees, distribute clothes/education
-                            kit ,feed peoples, provide education to needy children .</p>
-                        <div class="scroll-down next-section animate data-animate=" fadeInUp ""><img src="images/mouse-scroll.png" alt=""><span>Scroll Down</span></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide02">
-                <div class="section-inner">
-                    <div class="about-section">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8 wide-col-laptop">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="about-contentbox">
-                                            <div class="animate" data-animate="fadeInUp">
-                                                <span>About Us</span>
-                                                <h2>Who are we?</h2>
-                                                <p>Our work aims to break the vicious cycle of poverty and social isolation and to restore hope for better future. We believe that every person has the right to access resources and opportunities in order to
-                                                    live and develop with dignity and to become an active and contributing member of our society.</p>
-                                            </div>
-                                            <div class="facts-list owl-carousel">
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-certificate counter-icon" aria-hidden="true"></i><span class="count-number">15+</span> Cloth Distribution
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-leaf counter-icon" aria-hidden="true"></i><span class="count-number">12+ </span> Plantation Drive
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-desktop counter-icon" aria-hidden="true"></i><span class="count-number">15+ </span>Educational Kit
-                                                    </div>
-                                                </div>
-                                                <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-support counter-icon" aria-hidden="true"></i><span class="count-number">7+ </span> Blanket Distribution
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="item animate" data-animate="fadeInUp">
-                                                    <div class="counter-box">
-                                                        <i class="fa fa-certificate counter-icon" aria-hidden="true"></i><span class="count-number">20+ y</span> Network Marketing
-                                                    </div>
-                                                </div> -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <figure class="about-img animate" data-animate="fadeInUp"><img src="images/subhji.png" class="rounded" alt=""></figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide03">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Mission</span>
-                                <h2>What We think?</h2>
-                            </div>
-                            <div class="services-section">
-                                <div class="services-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i></span>
-                                            <h3>Future Goal</h3>
-                                            <p>We aims to break the vicious cycle of poverty and social isolation and to restore hope for better future. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-cloud" aria-hidden="true"></i></span>
-                                            <h3>Eqaulity</h3>
-                                            <p>We believe that every person has the right to access resources and opportunities in order to live and develop with dignity and to become an active and contributing member of our society. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-binoculars" aria-hidden="true"></i></span>
-                                            <h3>Social Welfare</h3>
-                                            <p>We take any other work or assignment which may be for the general welfare of the people. </p>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
-                                            <h3>Bussiness</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
-                                            <h3>Motivator</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div> -->
-                                    <!-- <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-database" aria-hidden="true"></i></span>
-                                            <h3>24-hour Up Time</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-bell" aria-hidden="true"></i></span>
-                                            <h3>Instant Upgrades</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="service-box">
-                                            <span class="service-icon"><i class="fa fa-camera" aria-hidden="true"></i></span>
-                                            <h3>Always Monitoring</h3>
-                                            <p>Nullam auctor, justo vitae accumsan ultrices, arcu ex molestie massa, eu maximus enim tortor vitae quam. </p>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide04">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Donate</span>
-                                <h3>निष्ठा धृति: सत्यम्</h3>
-                            </div>
-
-
-
-
-
-
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/bank.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Direct Transfer in Bank</h4>
-                                                <!-- <h4>Bank Details</h4> -->
-                                                <ul style="color: black;">
-                                                    <li>Bank Name : UCO Bank</li>
-                                                    <li>Branch : Sultanpur</li>
-                                                    <li>Account No : 19000210004296</li>
-                                                    <li>IFSC CODE : UCBA0001900</li>
-                                                    <li>Mobile No : 8299642467</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/UPI.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>UPI Id- 8299642467@ybl</h4>
-                                                <p>Please tell your friends about it. </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/UPI.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Scan QR Code</h4>
-                                                <p>Please tell your friends about it.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-
-
-
-
-
-
-                            <!-- <div class="skills-row animate" data-animate="fadeInDown">
-                                <div class="row">
-                                    <div class="col-md-8 offset-md-2">
-                                        <div class="skill-item">
-                                            <h6>Legal Advisor</h6>
-                                            <div class="skill-bar">
-                                                <span>70%</span>
-                                                <div class="filled-bar"></div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Property Dealer</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item">
-                                            <h6>Advocate</h6>
-                                            <div class="skill-bar">
-                                                <span>70%</span>
-                                                <div class="filled-bar"></div>
-                                            </div>
-                                        </div>
-                                        <div class="skill-item last-skill">
-                                            <h6>Network Marketing</h6>
-                                            <div class="skill-bar">
-                                                <span>90%</span>
-                                                <div class="filled-bar-2"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide06">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Our Work</span>
-                                <h2>what we’ve done?</h2>
-                            </div>
-                            <div class="gallery-section">
-                                <div class="gallery-list owl-carousel">
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/cloth.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Cloth Distribution</h4>
-                                                <p>We comes with an initiative of Cloth Distribution Drive on every Sunday to provide cloth to the needy people.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/plantations.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Plant Drive</h4>
-                                                <p>We plant 5 trees on every second and fourth Sunday to ensure to combat environmental issues like deforestation, erosion of soil, desertification etc.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/kit.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Educational kits</h4>
-                                                <p>We used to provide education kit consisting of book, notebook and all other stationary material to the needy children on regular basis.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/blanket.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Blanket Distribution</h4>
-                                                <p>In every winter we used to provide blankets to the needy section of society to save them from harshness of nature .</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/science.jpeg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Olympiad Competation</h4>
-                                                <!--<p>Please tell your friends about it. Lorem is the .</p>-->
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--  <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Leadership</h4>
-                                                <p>Please tell your friends about it. Lorem is the best </p>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <!-- <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-1.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Lorem is the best</h4>
-                                                <p>Please tell your friends about it. Lorem is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <!-- <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-2.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Lorem is the best</h4>
-                                                <p>Please tell your friends about it. Lorem is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <!-- <div class="item animate" data-animate="fadeInUp">
-                                        <div class="portfolio-item">
-                                            <div class="thumb">
-                                                <img src="images/item-3.jpg" alt="">
-                                            </div>
-                                            <div class="thumb-inner animate" data-animate="fadeInUp">
-                                                <h4>Lorem is the best</h4>
-                                                <p>Please tell your friends about it. Lorem is the best website to download free Bootstrap templates.</p>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="section animated-row" data-section="slide05">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-8 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>TESTIMONIALS</span>
-                                <h2>what Ours Members thought?</h2>
-                            </div>
-                            <div class="col-md-8 offset-md-2">
-                                <div class="testimonials-section">
-                                    <div class="testimonials-slider owl-carousel">
-
-
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t1.jpeg" class="rounded-circle" alt="profile 1">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Nitin Pandey</h4>
-                                                    <p>"It’s never too late to make life better for all of us."</p>
-                                                    <span>Business Man</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t2.jpg" class="rounded-circle" alt="profile 2">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Uday Pratap Singh </h4>
-                                                    <p>"Aspire To Inspire Before We Expire"</p>
-                                                    <span>Student</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t3.jpeg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Shubhanshu Mishra</h4>
-                                                    <p>"Empowering everyone to create a world without poverty."</p>
-                                                    <span>Student</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t4.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Ankit Prabhaker</h4>
-                                                    <p>"Helping People makes me happy."</p>
-                                                    <span>Teacher</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t5.jpeg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Gaurav Pandey</h4>
-                                                    <p>"Lets be that helping hand which everyone thinks of."</p>
-                                                    <span>Private Job</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t6.jpeg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Aditya</h4>
-                                                    <p>"To nurish people and planet."</p>
-                                                    <span>Student</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t7.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Shwetank Shekhar Srivastava</h4>
-                                                    <p>"Treat everyone equally and help needy people."</p>
-                                                    <span>Student</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t8.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Anshul Yadav</h4>
-                                                    <p>"I can give my effort to make a big change for the society."</p>
-                                                    <span>Student</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t9.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Saharsh Shekhar Srivastava</h4>
-                                                    <p>"I want to help poor children those who can not for there quality education ."</p>
-                                                    <span>Accountant </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t10.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Diwaker Singh</h4>
-                                                    <p>"Give happiness on other faces is true satisfaction."</p>
-                                                    <span>Student</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t11.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Alind Kumar Srivastava</h4>
-                                                    <p>"Great to see such good work done in the community."</p>
-                                                    <span>Student</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t12.jpg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Shubham Pandey </h4>
-                                                    <p>"A philanthropist who feels that helping others always makes a person happy."</p>
-                                                    <span>Business Man</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t13.png" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Shubhanshu Nishad</h4>
-                                                    <p>"Be creative rather than successful person."</p>
-                                                    <span>Founder and CEO of Metaeducator</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item animate" data-animate="fadeInUp">
-                                            <div class="testimonial-item">
-                                                <div class="client-row">
-                                                    <img src="images/testimonial/t14.jpeg" class="rounded-circle" alt="profile 3">
-                                                </div>
-                                                <div class="testimonial-content">
-                                                    <h4>Mr. Naman Singh</h4>
-                                                    <p>"I find myself privileged to be associated with this non profit organization. "</p>
-                                                    <span>Entrepreneur</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section animated-row" data-section="slide07">
-                <div class="section-inner">
-                    <div class="row justify-content-center">
-                        <div class="col-md-7 wide-col-laptop">
-                            <div class="title-block animate" data-animate="fadeInUp">
-                                <span>Contact</span>
-                                <h2>Get In Touch!</h2>
-                            </div>
-                            <div class="contact-section">
-                                <div class="row">
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <div class="contact-box">
-                                            <div class="contact-row">
-                                                <i class="fa fa-map-marker"></i> Sultanpur ,Uttar Pradesh
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-phone"></i><a href="tel:8299642467" title="phone" target="blank">8299642467</a>
-                                            </div>
-                                            <div class="contact-row">
-                                                <i class="fa fa-envelope"></i> <a href="mailto:shubhinfusion2019@gmail.com" title="email" target="blank">shubhinfusion2019@gmail.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form name="contact" method="post">
-                                            <div class="input-field">
-                                                <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
-                                            </div>
-                                            <div class="input-field">
-                                                <input type="phone" class="form-control" name="phone" id="phone" required placeholder="Phone No">
-                                            </div>
-                                            <div class="input-field">
-                                                <input type="email" class="form-control" name="email" id="email" required placeholder="Email">
-                                            </div>
-                                            <div class="input-field">
-                                                <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
-                                            </div>
-                                            <button id="contact" name="contact" type="submit" class="btn">Submit</button>
-                                        </form>
-                                        <div id="form-messages" class="mt-3"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <footer>
-                                <a href="https://wa.me/919455593295" target="blank"> © Design & Developed by Meta Educator</a>
-
-                            </footer>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="social-icons">
-            <div class="text-right">
-                <ul class="social-icons">
-                    <li><a href="mailto:shubhinfusion2019@gmail.com" title="email" target="blank"><i class="fa fa-envelope"></i></a></li>
-                    <li><a href="https://www.facebook.com/Shubh-Sewa-Samiti-104491074319495/" title="facebook" target="blank"><i class="fa fa-facebook"></i></a></li>
-                    <!-- <li><a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>-->
-                    <li><a href="https://www.instagram.com/shubh__foundation/" title="Instagram" target="blank"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCHri0T4UAHG7sI92p-06PJA/" title="YouTube" target="blank"><i class="fa fa-youtube"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <script src="js/jquery.js"></script>
-
-    <script src="js/bootstrap.min.js"></script>
-
-    <script src="js/fullpage.min.js"></script>
-
-    <script src="js/scrolloverflow.js"></script>
-
-    <script src="js/owl.carousel.min.js"></script>
-
-    <script src="js/jquery.inview.min.js"></script>
-
-    <script src="js/form.js"></script>
-
-    <script src="js/custom.js"></script>
-
-
+    <script src="./script.js"></script>
 </body>
-
 </html>
